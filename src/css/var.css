@@ -1,0 +1,16 @@
+:root {
+    --accent-color: #D90008;
+    --btn-color: #303030;
+    --text-color: #191919;
+    --text-color-hover: #EB1C24;
+    --text-color-active: #770e12;
+    --additional-color: #757575;
+    --white-color: #FFFFFF;
+    --title-color: #F3F3F3;
+
+    --padding-btn: 10px;
+
+    --cursor: url('../img/point.svg'), pointer;
+
+    --size-btn-text: 18px;
+}

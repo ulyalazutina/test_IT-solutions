@@ -18,7 +18,6 @@ module.exports = ({ develop }) => ({
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: '[name].[contenthash:8].js',
-        chunkFilename: '[id].[hash:8].js',
         assetModuleFilename: 'media/[name][hash][ext][query]',
         clean: develop ? false : true,
     },
@@ -26,7 +25,6 @@ module.exports = ({ develop }) => ({
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: path.resolve(__dirname, 'src/index.html'),
-            chunks: ['index'],
         }),
         new MiniCssExtractPlugin({ filename: develop ? 'css/main.css' : 'css/[name].[contenthash:8].css' }),
     ],
