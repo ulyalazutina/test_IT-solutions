@@ -1,17 +1,46 @@
 @media (max-width: 1800px) {
-    .center {
+    .center  {
         padding-right: 100px;
         padding-left: 100px;
+    }
+    .centerMargin {
+        margin-right: 100px;
+        margin-left: 100px;
     }
     .header__nav {
         margin-right: 120px;
     }
 }
 
+@media(max-width: 1500px) {
+    .main__title {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .main__title {
+        font-size: 45px;
+    }
+    .main__text {
+        font-size: 20px;
+    }
+    .btn {
+        padding: 18px 28px;
+    }
+    .main {
+        height: 800px;
+    }
+}
+
 @media (max-width: 1300px) {
-    .center {
+    .center  {
         padding-right: 80px;
         padding-left: 80px;
+    }
+    .centerMargin {
+        margin-right: 80px;
+        margin-left: 80px;
     }
     .header {
         gap: 20px;
@@ -37,15 +66,51 @@
     .header__nav {
         flex-direction: column;
     }
+    .main {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main {
+        padding: 80px 60px;
+    } 
+    .main__text {
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
 }
 
 
 @media (max-width: 768px) {
-    .center {
+    .center  {
         padding-right: 60px;
         padding-left: 60px;
     }
+    .centerMargin {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
 
+}
+
+@media (max-width: 630px) {
+    .main__title {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .main__text {
+        font-size: 18px;
+        width: 100%;
+    }
+    .main {
+        height: 700px;
+        background-position: right 94%;
+        padding: 40px 20px;
+    }
+    .main__img {
+        width: 420px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -53,5 +118,34 @@
         padding-right: 30px;
         padding-left: 30px;
     }
+    .centerMargin {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
 
+@media (max-width: 425px) {
+    .main__title {
+        font-size: 32px;
+    }
+    .main {
+        height: 650px;
+    }
+    .main__text {
+        font-size: 16px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    .btn  {
+        font-size: 16px;
+    }
+    .main__img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 350px) {
+    .main__title {
+        font-size: 28px;
+    }
 }

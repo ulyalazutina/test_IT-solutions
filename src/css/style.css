@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Inter", system-ui;
+    font-family: "Inter", sans-serif;;
     font-weight: 400;
     font-size: 16px;
     color: var(--text-color);
@@ -25,6 +25,32 @@ li {
 .center {
     padding-right: 120px;
     padding-left: 120px;
+}
+
+.centerMargin {
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.btn {
+    border-radius: 16px;
+    background: var(--accent-color);
+    padding: 24px 32px;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    border: none;
+    transition: all .3s;
+    cursor: var(--cursor);
+}
+
+.btn:hover {
+    background: var(--accent-color-hover);
+}
+
+.btn:active {
+    background: var(--accent-color-active);
 }
 
 

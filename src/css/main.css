@@ -1,0 +1,36 @@
+.main {
+    border-radius: 40px;
+    background-color: rgb(25, 25, 25);
+    background-image: url('../img/bg.png');
+    background-position: right 84%;
+    background-size: 62%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 120px 100px;
+    margin-top: 40px;
+}
+
+.main__title {
+    color: var(--title-color);
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 63px;
+    width: clamp(420px, 40%, 603px)
+}
+
+.main__text {
+    color: var(--white-color);
+    font-size: 24px;
+    line-height: 150%;
+    opacity: 0.5;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    width: clamp(350px, 40%, 603px)
+}
+
+.main__img {
+    position: absolute;
+    width: clamp(500px, 75%, 1240px);
+    bottom: 6%;
+    right: -8%;
+}

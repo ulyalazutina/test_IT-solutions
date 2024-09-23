@@ -166,6 +166,10 @@
     background: var(--text-color-hover);
 }
 
+.header__close {
+    z-index: 2;
+}
+
 .header__close span:first-child {
     transform: rotate(45deg);
 }
@@ -191,6 +195,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    z-index: 1;
 }
 
 .hide {
